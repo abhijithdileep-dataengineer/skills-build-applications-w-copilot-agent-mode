@@ -1,3 +1,5 @@
+import React, { useState, useEffect } from 'react';
+
 const Teams = () => {
   const [data, setData] = useState([]);
   const endpoint = `https://${process.env.REACT_APP_CODESPACE_NAME}-8000.app.github.dev/api/teams/`;
